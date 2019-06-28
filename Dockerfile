@@ -1,4 +1,5 @@
 
 FROM Centos
-RUN yum upodate
+RUN "yum update"
 USER robot
+
